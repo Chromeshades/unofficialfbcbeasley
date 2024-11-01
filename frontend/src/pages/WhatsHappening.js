@@ -26,7 +26,7 @@ const WhatsHappening = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await axios.get('http://10.2.69.127:5000/api/events'); // Ensure this URL is correct
+        const response = await axios.get('http://localhost:5000/api/events'); // Ensure this URL is correct
         setEvents(response.data);
       } catch (error) {
         console.error('Error fetching events:', error);
