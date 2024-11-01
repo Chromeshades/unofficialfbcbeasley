@@ -25,7 +25,7 @@ const AddEvent = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://10.2.69.127:5000/api/events', {
+      const response = await axios.post('http://localhost:5000/api/events', {
         name: eventName,
         date: eventDate,
         description: eventDescription,
@@ -41,7 +41,7 @@ const AddEvent = () => {
       setMessage('Failed to add event. Please try again.');
       setIsError(true);
       // Log error to backend
-      await axios.post('http://10.2.69.127:5000/api/log', { error: error.message });
+      await axios.post('http://localhost:5000/api/log', { error: error.message });
     }
   };
 
