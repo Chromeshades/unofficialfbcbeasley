@@ -1,0 +1,47 @@
+.calendar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.react-calendar {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a fancy look */
+  border-radius: 8px;
+}
+
+.react-calendar__tile {
+  position: relative;
+}
+
+.event-indicator {
+  width: 8px;
+  height: 8px;
+  background-color: #3700b3; /* Accent color for event indicator */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.events, .upcoming-events, .past-events {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event {
+  background-color: #ffffff; /* Light background for the event */
+  color: #121212; /* Dark text color */
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a fancy look */
+  width: 80%;
+  text-align: center;
+}
+
+.event h3 {
+  color: #3700b3; /* Accent color for event title */
+}
