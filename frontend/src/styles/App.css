@@ -157,7 +157,7 @@ p {
   background-color: #ffffff; /* Light background for the card */
   color: #121212; /* Dark text color */
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a fancy look */
 }
@@ -267,13 +267,14 @@ p {
 .welcome-card h2 {
   color: #3700b3; /* Accent color for headings */
   margin-top: 0;
+  margin-left: 20px;
 }
 
 .info-card {
   background-color: #ffffff; /* Light background for the card */
   color: #121212; /* Dark text color */
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a fancy look */
 }
